@@ -1,6 +1,10 @@
 import React from 'react';
 import {Label, Well} from 'react-bootstrap';
 
+import armee from 'assets/Armee-air-logo.jpg'
+import lectra from 'assets/Lectra-logo.jpg'
+import wyplay from 'assets/wyplay-logo.png'
+
 import './Skills.scss';
 
 const Skills = React.createClass({
@@ -10,7 +14,7 @@ const Skills = React.createClass({
         <div id="1" className="skill">
           <div className="infos">
             <div className="society">
-              <img src="https://pbs.twimg.com/profile_images/1551623337/wyplay-logo-2011_400x400.png" />
+              <img src={wyplay} />
               <div className="name">Wyplay</div>
               <div className="job"> - Développeur d'applications numériques</div>
             </div>
@@ -41,7 +45,7 @@ const Skills = React.createClass({
         <div id="2" className="skill">
           <div className="infos">
             <div className="society">
-              <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/4/4b/Logo_lectra.jpg/382px-Logo_lectra.jpg" />
+              <img src={lectra} />
               <div className="name">Lectra</div>
               <div className="job"> - Développeur Front End</div>
             </div>
@@ -77,7 +81,7 @@ const Skills = React.createClass({
         <div id="3" className="skill">
           <div className="infos">
             <div className="society">
-              <img src="https://pbs.twimg.com/profile_images/770587442600697856/8vq6s7Xs.jpg" />
+              <img src={armee} />
               <div className="name">Armée de l'Air</div>
               <div className="job"> - Développeur Java / Java Web</div>
             </div>

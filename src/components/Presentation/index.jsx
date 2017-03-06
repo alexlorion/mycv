@@ -1,6 +1,8 @@
 import React from 'react';
 import {Glyphicon, Image} from 'react-bootstrap';
 
+import moiImg from 'assets/Moi.jpg'
+
 import './index.scss';
 
 const Presentation = React.createClass({
@@ -10,7 +12,7 @@ const Presentation = React.createClass({
         <div className="bloc">
           <div className="title infobulle left">lorion alexandre</div>
           <div className="photo">
-            <Image src="https://pbs.twimg.com/profile_images/482994245288988674/m4TrD6X__400x400.jpeg" circle />
+            <Image src={moiImg} circle />
           </div>
           <div className="summary">
             Développeur d'applications web depuis 2008, très curieux et dynamique.
