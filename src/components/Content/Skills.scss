@@ -1,0 +1,66 @@
+.Skills {
+  .skill {
+    margin: 40px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #464e65;
+    }
+
+    .infos {
+      display: flex;
+      align-items: center;
+
+      .society {
+        display: flex;
+        height: 80px;
+        margin-left: 25px;
+        img {
+          flex: 0 0 auto;
+          height: 80px;
+          margin-right: 10px;
+        }
+        .name, .job {
+          display: inline-block;
+          height: 80px;
+          line-height: 80px;
+        }
+
+        .name {
+          font-size: 25px;
+          font-weight: bold;
+        }
+      }
+
+      .date {
+        display: block;
+        flex: 1 1 auto;
+        text-align: right;
+        margin-right: 25px;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 18px;
+      }
+    }
+
+    .technos {
+      margin: 20px 0;
+      .label {
+        margin-right: 10px;
+        font-size: 90%;
+        &-default {
+          background-color: #ece7e7;
+          color: #545454;
+        }
+      }
+    }
+
+    .details {
+      margin-bottom: 30px;
+      text-align: justify;
+      .title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

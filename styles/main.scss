@@ -1,0 +1,55 @@
+body {
+	background: white;
+
+	* {
+		font-size: 17px;
+	}
+
+	.container {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#app > div {
+		width: 100%;
+		display: flex;
+
+		.infobulle {
+			position: relative;
+			display: inline-block;
+			padding: 13px;
+			background-color: #5F8CA3;
+			font-size: 20px;
+			font-weight: bold;
+	    color: white;
+			text-transform: uppercase;
+
+			&:before {
+				content:"";
+				position: absolute;
+				width: 0;
+				height: 0;
+			}
+
+
+			&.left:before {
+				border-top: 10px solid transparent;
+				border-left: 50px solid #5F8CA3;
+				border-bottom: 20px solid transparent;
+				transform: rotate(63deg);
+				bottom: -30px;
+				left: 30px;
+			}
+
+			&.right:before {
+				border-top: 10px solid transparent;
+				border-right: 50px solid #5F8CA3;
+				border-bottom: 20px solid transparent;
+				transform: rotate(-63deg);
+				bottom: -30px;
+				right: 30px;
+			}
+		}
+	}
+}

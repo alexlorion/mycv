@@ -1,0 +1,42 @@
+.School {
+  .bloc {
+    margin: 40px;
+    &:not(:last-child) {
+      border-bottom: 1px solid #464e65;
+    }
+
+    .infos {
+      display: flex;
+      align-items: center;
+      height: 80px;
+      margin-left: 25px;
+
+      .date {
+        display: block;
+        flex: 1 1 auto;
+        text-align: right;
+        margin-right: 25px;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 18px;
+      }
+
+      .name {
+        font-size: 25px;
+        font-weight: bold;
+
+        .at {
+          margin: 0 5px;
+          color: #5F8CA3;
+          font-size: 20px;
+        }
+
+        .location {
+          font-weight: normal;
+          font-size: 25px;
+          color: #5F8CA3;
+        }
+      }
+    }
+  }
+}
