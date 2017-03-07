@@ -31,6 +31,9 @@ const Presentation = React.createClass({
               <div className="prefix"><u>Permis</u> : </div> A / B
             </div>
             <div className="info">
+              <div className="prefix"><u>Langue</u> : </div> Français / Anglais
+            </div>
+            <div className="info">
               <div className="prefix"><u>Loisirs</u> : </div> Roller Derby / Foot
             </div>
           </div>
@@ -42,7 +45,7 @@ const Presentation = React.createClass({
             <div className="info"><Glyphicon glyph="phone-alt" /> : (+33)6 42 98 93 69</div>
             <div className="info"><Glyphicon glyph="envelope" /> : alexandre.lorion@gmail.com</div>
             <div className="info">
-              Viadeo / <a href="http://www.linkedin.com/in/alexandre-lorion"><img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png" width="20px" /></a>
+              Profil Linkedin : <a href="http://www.linkedin.com/in/alexandre-lorion"><img src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png" width="20px" /></a>
             </div>
           </div>
         </div>

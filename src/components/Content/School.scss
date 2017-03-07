@@ -1,6 +1,6 @@
 .School {
   .bloc {
-    margin: 40px;
+    margin: 25px;
     &:not(:last-child) {
       border-bottom: 1px solid #464e65;
     }
@@ -22,18 +22,18 @@
       }
 
       .name {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
 
         .at {
           margin: 0 5px;
           color: #5F8CA3;
-          font-size: 20px;
+          font-size: 18px;
         }
 
         .location {
           font-weight: normal;
-          font-size: 25px;
+          font-size: 20px;
           color: #5F8CA3;
         }
       }
